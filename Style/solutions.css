@@ -147,9 +147,9 @@
   
 /* ESERCIZIO-13 */
 .ex-13-button:hover .ex-13-top-white {
-    animation: moveTopWhiteCompletely 2s linear;
+    animation: move-top-white 2s linear;
 }
-@keyframes moveTopWhiteCompletely {
+@keyframes move-top-white {
     0% {
         left: 10%;
         top: -10px;
@@ -176,9 +176,9 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhiteCompletely 2s linear;
+    animation: move-bottom-white 2s linear;
 }
-@keyframes moveBottomWhiteCompletely {
+@keyframes move-bottom-white {
     0% {
         bottom: -10px;
         right: 20%;
